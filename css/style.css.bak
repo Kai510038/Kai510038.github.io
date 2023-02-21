@@ -24,8 +24,7 @@ html,.flex{
 {
   position: sticky;
   top: 0;
-  background-color:white;
-  padding-top:1%;
+  background-color:white; 
   width:100%;
   z-index: 6;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -129,7 +128,7 @@ html,.flex{
 
 .section{
   display: grid; 
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1.5fr;
   align-items: center;      
   flex: 1 1 auto;
 } 
@@ -139,9 +138,9 @@ html,.flex{
 }
 
 .img{
-  width: 80%;
-  height: 80%;
-  object-fit: contain;
+  width: 90%;
+  height: 100%; 
+  object-fit: fill;
 }
 
 .content-box{
@@ -198,12 +197,12 @@ html,.flex{
 }
 
 .image-box .img{
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: 2s cubic-bezier(0.17, 0.97, 0.38, 1);
 }
 
 .image-box.revealed .img{
-  transform: scale(1.57);
+  transform: scale(1);
 }
 
 @media only screen and (max-width: 768px) {
