@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head> 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=Big-5">
     <title></title>
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
   </head>
   <body> 
   <div class="flex">
-    <div class="wrap-top"> 
+        <div class="wrap-top"> 
 	  <div class="dropdown">
         <ul>
-		<li><a href="hi.html" style="background:#dfdfdf;">Abstract</a>
+		<li><a href="hi.html" style="background:#dfdfdf;">Abstrac</a>
 			<div class="dropdown-content">
 				<ul> 
-					<li><a href="SMT/SMT.html">SMT</a></li>
+					<li><a href="SMT/SMT.html">Intro</a></li>
 				</ul>
 			</div>
 		</li>
@@ -28,14 +28,9 @@
 		</li>
 		<li><a href="#">Abstract</a> 
 		</li>
-		<li><a href="#">Abstract</a>
-			<div class="dropdown-content">
-				<ul>
-				<li><a href="#">Intro</a></li> 
-				</ul>
-			</div>
+		<li><a href="#">Abstract</a> 
 		</li>
-		<li><a href="#">Intro</a></li> 
+		<li><a href="#">Abstract</a></li> 
 	</ul>
       </div>
     </div> 
@@ -49,19 +44,18 @@
 		<h2 class="title" data-reveal="left">Improve</h2>
 		<h2 class="title" data-reveal="left">Electrical Muscle Stimulation </h2><br>
 		<p class="text" data-reveal="left">
-		論文名稱<br> Increasing Electrical Muscle Stimulation's Dexterity by means of Back of the Hand Actuation.
+		論文名稱:<br> Increasing Electrical Muscle Stimulation's Dexterity by means of Back of the Hand Actuation.
 		</p>
 		<p class="text" data-reveal="left">
-		原始連結<a href="https://dl.acm.org/doi/10.1145/3411764.3445761" target="_blank" >https://dl.acm.org/doi/10.1145/3411764.3445761</a>
+		原始連結:<a href="https://dl.acm.org/doi/10.1145/3411764.3445761" target="_blank" >https://dl.acm.org/doi/10.1145/3411764.3445761</a>
 		</p>  
 	</div> 
 	</div> 
 	</div>
-		 
-		 
-	<span>efeeeeeeeeeeeedefeeeeeeeeeeeedefeeeeeeeeeeeedefeeeeeeeeeeeed</span>
+	
   </div> 
 	
+	<span>efeeeeeeeeeeeedefeeeeeeeeeeeedefeeeeeeeeeeeedefeeeeeeeeeeeed</span> 
 	<script>
 	const revealElements = document.querySelectorAll("[data-reveal]");
 
