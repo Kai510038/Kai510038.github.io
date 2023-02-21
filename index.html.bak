@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head> 
-    <meta http-equiv="content-type" content="text/html; charset=Big-5">
+    <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
   </head>
@@ -43,6 +43,7 @@
 	<div class="content-box" style="margin-top:1px;">
 		<h2 class="title" data-reveal="left">Improve</h2>
 		<h2 class="title" data-reveal="left">Electrical Muscle Stimulation </h2><br>
+<<<<<<< HEAD
 		<div class="text" data-reveal="left">
 		Ω◊§Â¶W∫Ÿ:<br> Increasing Electrical Muscle Stimulation's Dexterity by means of <br>Back of the Hand Actuation.
 		</div>
@@ -50,11 +51,20 @@
 		≠Ï©l≥sµ≤:<br><a href="https://dl.acm.org/doi/10.1145/3411764.3445761" target="_blank" >https://dl.acm.org/doi/10.1145/3411764.3445761</a>
 		</div>  
 	</div> 
+=======
+		<p class="text" data-reveal="left">
+		Ë´ñÊñáÂêçÁ®±:<br> Increasing Electrical Muscle Stimulation's Dexterity by means of <br>Back of the Hand Actuation.
+		</p>
+		<p class="text" data-reveal="left">
+		ÂéüÂßãÈÄ£Áµê:<br><a href="https://dl.acm.org/doi/10.1145/3411764.3445761" target="_blank" >https://dl.acm.org/doi/10.1145/3411764.3445761</a>
+		</p>  
+>>>>>>> 2063a7027facb2433528dd15183083781f7d70b2
 	</div> 
-	</div>
+	</div> 
 	
   </div> 
 	
+<<<<<<< HEAD
 <div class="section2">
 	<h1>Abstract</h1>
 	<p>Most web consumers don't read the text on a web page as they would in a book. They more likely will scan the text as they would a newspaper. Content developers and writers need to be cognizant of the short attention span of their audience, as they may be reading their content on any device.</p>
@@ -64,6 +74,9 @@
 	<p>Another factor that influences line length is leading or line height, in the case of the web. Too much space between lines and the text in a paragraph feels disjointed. The eye needs to find the beginning of the next line with a great distance between the previous line. Too little space and everything feels tight. A comfortable line height needs to be balanced. The line height value of this paragraph is 20px or 1.25em.</p>
 </div>
 
+=======
+	<span>123</span> 
+>>>>>>> 2063a7027facb2433528dd15183083781f7d70b2
 	<script>
 	const revealElements = document.querySelectorAll("[data-reveal]");
 
