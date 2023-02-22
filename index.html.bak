@@ -1,338 +1,115 @@
-*
-{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: "微軟正黑體";
-}
-body
-{  
-	height:100%;
-    overflow: scroll; 
-	background-position:center;
-	font-family: "微軟正黑體"; 
-	background:#fafafa; 
-    color:black; 
-    overflow-x: hidden;
-}    
-html,.flex{
-    min-height: 100%;
-    height: 100%;
-}
-
-.wrap-top
-{
-  position: sticky;
-  top: 0;
-  background-color:white; 
-  width:100%;
-  z-index: 6;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
-.logo
-{
-	display:inline-flex; 
-	margin-left:30px;
-	margin-right:5px; 
-	padding-bottom:0.5%; 
-} 
-.top-right
-{	
-  float:right;
-  display:inline-flex;
-  background:#97A5C0;
-  border-radius:10px;
-  padding:10px 10px;
-  margin-right:27.5px;
-}
- 
-
-.top-right a
-{
-  font-size: 15px;
-  color:#fff;	
-  text-decoration: none;
-  font-weight:bold;
-}
-.top-right a:hover
-{
-  color:#000;	
-} 
-
-
-.dropdown 
-{ 
-  text-align: center; 
-  width:100%;
-} 
- 
-.dropdown ul 
-{
-  display:flex;
-  justify-content: space-evenly;  
-  width:100%;
-  padding:0.5% 0px;
-  display:inline-flex;
-}
+<!DOCTYPE html>
+<html>
+  <head> 
+    <meta http-equiv="content-type" content="text/html; charset=Big-5">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+  </head>
+  <body>
   
-.dropdown ul li
-{ 
-  list-style:none;
-  width: 100px;
-  padding:0.5% 0px;
-  font-size: 18px;
-  padding: 10px 0px 10px;
-}
+<div>
+  <div class="flex">
+      <div class="wrap-top"> 
+		  <div class="dropdown">
+			<ul>
+			<li><a href="#Intro">前言</a></li>
+			<li><a href="#Abstract">痛點</a></li>
+			<li><a href="#find">發現</a></li>
+			<li><a href="#">Abstract</a>
+				<div class="dropdown-content">
+					<ul>
+						<li><a href="#">Abstract</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="#">Abstract</a> 
+			</li>
+			<li><a href="#">Abstract</a> 
+			</li>
+			<li><a href="#">Abstract</a></li> 
+			</ul>
+		  </div>
+		</div> 
+	
+	
+	<div class="section">
+		<div class="image-box" data-reveal="left">
+		<img src="img/g2.jpg" alt="" class="img">
+		</div>
+		<div class="content-box" style="margin-top:1px;">
+			<h2 class="title" data-reveal="left">Improve</h2>
+			<h2 class="title" data-reveal="left">Electrical Muscle Stimulation </h2><br>
+			<div class="text" data-reveal="left">
+			論文名稱:<br> Increasing Electrical Muscle Stimulation's Dexterity by means of <br>Back of the Hand Actuation.
+			</div>
+			<div class="text" data-reveal="left">
+			原始連結:<br><a href="https://dl.acm.org/doi/10.1145/3411764.3445761" target="_blank" >https://dl.acm.org/doi/10.1145/3411764.3445761</a>
+			</div>  
+		</div> 
+	</div> 
+	
+	
+	<div class="section2"> 
+	<span id="Intro"></span>
+	<div>
+		<h1 ># 前言</h1>
+		<p>
+		肌肉電刺激(EMS)是一種通過電脈衝誘導肌肉收縮的技術，通常是通過附著在皮膚上的電極。EMS起源於1960年代的醫療康復，作為恢復失去的運動功能的一種手段。EMS是一種力反饋和觸覺驅動技術，被用於實現廣泛的觸覺應用，例如：移動用戶的手腕以敲擊節拍，教用戶如何操作他們以前從未見過的物體，甚至可以控制用戶握筆的手，充當繪圖儀設備。
+		</p>
+	</div >
+	<span id="Abstract"></span>
+	<div>
+		<h1># 痛點</h1>
+		<p>然而，EMS系統都存在局限性，因為它們不是不驅動用戶的手指（主要是手腕），就是粗略地驅動用戶的手指，並且彼此之間不是獨立的，即，在大多數這些系統中，一個特定的目標手指通過EMS彎曲，其他手指也開始彎曲，導致不必要的動作和缺乏靈巧性。</p>
+		<br>
+		<p>
+		為此已經取得了一些進展，例如Watanabe等人通過刺激中指的屈肌和伸肌來控制MCP和PIP關節處的中指。雖然他們成功地控制了這根手指，但他們並沒有為所有手指在MCP關節周圍創建可靠的驅動。
+		</p> 
+	</div>
+	<span id="find"></span> 
+	<div>
+		<h1># 發現</h1>
+		<p>我們確定了EMS在誘導手指彎曲時缺乏靈巧性的原因，並將其歸結為幾乎都通過在前臂放置電極來實現這一事實。
+		</p>
+		<br>
+		<p>
+		原因有以下三個主要原因：
+		<br>
+		(1)前臂的屈肌密集排列，因為它們都在肘部作為共享錨；因此，試圖通過附著在皮膚上的電極來彎曲手指會導致電流也流過相鄰的肌肉，從而使其他肌肉不必要地移動；
+		<br>
+		(2)前臂的屈肌在一個深度與手指屈肌分層，在另一個深度與腕屈肌分層；因此，試圖通過附著在皮膚上的電極來彎曲手指通常會導致電流也流過其他層，從而導致其他肌肉（例如手腕）不必要地移動；
+		<br>
+		(3)當我們轉動手腕時，與前臂肌肉相比，前臂皮膚旋轉的量不同；因此，每當手腕移動時，電極最終都會刺激新的肌肉，從而導致不必要的彎曲。
+		</p> 
+		<br>
+		<p>
+		我們通過發現一種新的電極排列解決了EMS中缺乏靈巧性的問題。我們沒有將電極放置在手臂底部以瞄準該位置的手指屈肌，而是刺激手背，瞄準未探索的蚓狀肌/骨間肌。當使用EMS在MCP關節周圍彎曲手指時，這會提高靈活性。
+		</p> 
+	</div>
 
-.dropdown ul li a
-{
-  text-decoration:none;	
-  font-weight:bold;
-  color:#000;	
-  display: block;
-}
-.dropdown ul li a:hover
-{  
-  background-color:#dfdfdf;	 
-  font-weight:bold;
-} 
+	<div ></div>
+</div>
+</div> 
+	
+</div> 
+	
+<script>
+	const revealElements = document.querySelectorAll("[data-reveal]");
 
-.dropdown-content 
-{
-  display: none;
-  min-width: 100px;
+	const scrollReveal = function(){
+	  for(let i = 0; i < revealElements.length; i++){
+		const isElementsOnScreen = revealElements[i].getBoundingClientRect().top < window.innerHeight;
+		
+		if(isElementsOnScreen){
+		  revealElements[i].classList.add("revealed")
+		} else {
+		  revealElements[i].classList.add("revealed")
+		}
+	  }
+	}
+
+window.addEventListener("load", scrollReveal); 
   
-}
-.dropdown li:hover .dropdown-content
-{
-  display:block;
-  color:#000;	
-  text-decoration: none;
-  background-color:white;	
-  position:absolute;
-}
-
-.dropdown li:hover .dropdown-content ul
-{
-  display:block;
-  color:#000;	
-  text-decoration: none;
-  margin-top:10px;
-} 
-   
-.flex{ 
-  height:100%;
-  display: flex;
-  flex-flow: column; 
-}
-
-.section{
-  display: grid; 
-  grid-template-columns: 1fr 1.3fr;
-  align-items: center;      
-  flex: 1 1 auto;
-} 
-.image-box{
-  height: 100%;
-  overflow: hidden; 
-}
-
-.img{
-  width: 90%;
-  height: 100%; 
-  object-fit: fill;
-}
-
-.content-box{
-  padding-inline: 5em;
-  margin-top:-150px;
-}
-
-.title{
-  font-size: 2em;
-  max-width: max-content;
-  margin-block-end: 0.25em;
-  margin-left:-3.5px;
-}
-
-.text{
-  font-size: 1.1em;
-  opacity: 0.6;
-  line-height: 2;
-  font-weight:bold;
-}
-
-[data-reveal="left"]{
-  clip-path: inset(0 100% 0 0);
-}
-
-[data-reveal="left"].revealed{
-  animation: reveal-left 1.2s cubic-bezier(0.17, 0.97, 0.38, 1) forwards 300ms;
-}
-
-@keyframes reveal-left{
-  0% {
-    clip-path: inset(0 100% 0 0);
-  }
-  100% {
-    clip-path: inset(0 0 0 0);
-  }
-}
-
-[data-reveal="right"]{
-  clip-path: inset(0 0 0 100%);
-}
-
-[data-reveal="left"].revealed{
-  animation: reveal-right 1.2s cubic-bezier(0.17, 0.97, 0.38, 1) forwards 300ms;
-}
-
-@keyframes reveal-right{
-  0% {
-    clip-path: inset(0 0 0 100%);_
-  }
-  100% {
-    clip-path: inset(0 0 0 0);
-  }
-}
-
-.image-box .img{
-  transform: scale(1.1);
-  transition: 2s cubic-bezier(0.17, 0.97, 0.38, 1);
-}
-
-.image-box.revealed .img{
-  transform: scale(1);
-}
-
-@media only screen and (max-width: 768px) {
-.section {
-grid-template-columns: 1fr;
-text-align: center;
-}
-.title {
-font-size: 3em;
-}
-.content-box {
-padding: 2em;
-}
-}
-
-@media only screen and (max-width: 480px) {
-.title {
-font-size: 2em;
-}
-.text {
-font-size: 0.8em;
-}
-}
- 
- 
- 
-.pepe {
-  position : absolute;   
-  margin : auto;  
-}
-
-.pepe a {  
-  font-weight:bold;
-  font-size : 30px;
-  color : black;
-  -webkit-transition: all .2s ease-in-out; 
-}
-
-.pepe a:hover {
-  color:gray;
-}
-
-.arrow-link {
-  text-decoration : none;
-}
-
-.arrow-link:after {
-  z-index : -1;
-  font-size : 60px;
-  position : relative;
-  content : "\2192";
-  color : #dadada;
-  margin-left : -5px;
-  bottom : -6px;
-  display : inline-block;
-  -webkit-transition: all .2s ease-in-out;
-}
-
-.arrow-link:hover:after {
-  transform : translateX(10px);
-  color:gray;
-}
-
-
-.mid
-{ 
-  margin-top:40px;
-  height:100%;
-  width:45%;
-  display: flex;
-  justify-content: space-between;  
-}
-.mid img
-{
-  height:90px;
-  width:90px;
-  display:inline-flex; 
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  filter:grayscale(100%);
-  transition:.5s ease-in-out;
-}
-.mid img:hover
-{
-	filter:grayscale(0%);
-}
- .tag:hover >  img
-{      
-	filter:grayscale(0%); 
-}
-.mid a{ 
-		text-decoration:none;
-}
-.white-txt{    
-      z-index:-1;
-	  display: flex;
-	  justify-content: center;
-	  align-content: center;
-	  flex-direction: column;
-		box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4); 
-	    margin-top:-6px;
-		background-color:white;
-		font-weight:bold;
-		color:black;
-		text-align:center; 
-		height:35px;
-		font-size:20px;
-} 
- 
- 
-.section2 { 
-  width: 60em; 
-  margin: 0px auto;
-}
-p { font-size: 1.063em; /* 17px / 16px = 1.063em */ 
-    line-height: 1.25; /* 20px / 16px = 1.25em */
-} 
-p:nth-of-type(1):first-letter {
-  float: left;
-  color: #47a6ff;
-  padding: 0 6px 0 4px;
-  font-size: 70px;
-  line-height: 90px;
-}
-
-.section2 div{
-	margin-top:50px; 
-	background:white;
-	padding:10px;
-}
-h1{
-	margin-bottom:10px;
-}
+  </script>
+  </body>
+</html>
