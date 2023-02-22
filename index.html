@@ -5,66 +5,95 @@
     <title></title>
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
   </head>
-  <body> 
+  <body>
+  
+<div>
   <div class="flex">
-        <div class="wrap-top"> 
-	  <div class="dropdown">
-        <ul>
-		<li><a href="hi.html" style="background:#dfdfdf;">Abstrac</a>
-			<div class="dropdown-content">
-				<ul> 
-					<li><a href="SMT/SMT.html">Intro</a></li>
-				</ul>
-			</div>
-		</li>
-		<li><a href="#">Intro</a></li>
-		<li><a href="knowledge.html">Abstract</a></li>
-		<li><a href="#">Abstract</a>
-			<div class="dropdown-content">
-				<ul>
-					<li><a href="#">Abstract</a></li>
-				</ul>
-			</div>
-		</li>
-		<li><a href="#">Abstract</a> 
-		</li>
-		<li><a href="#">Abstract</a> 
-		</li>
-		<li><a href="#">Abstract</a></li> 
-	</ul>
-      </div>
-    </div> 
+      <div class="wrap-top"> 
+		  <div class="dropdown">
+			<ul>
+			<li><a href="#Intro">前言</a></li>
+			<li><a href="#Abstract">痛點</a></li>
+			<li><a href="#find">發現</a></li>
+			<li><a href="#">Abstract</a>
+				<div class="dropdown-content">
+					<ul>
+						<li><a href="#">Abstract</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="#">Abstract</a> 
+			</li>
+			<li><a href="#">Abstract</a> 
+			</li>
+			<li><a href="#">Abstract</a></li> 
+			</ul>
+		  </div>
+		</div> 
 	
 	
 	<div class="section">
 		<div class="image-box" data-reveal="left">
 		<img src="img/g2.jpg" alt="" class="img">
 		</div>
-	<div class="content-box" style="margin-top:1px;">
-		<h2 class="title" data-reveal="left">Improve</h2>
-		<h2 class="title" data-reveal="left">Electrical Muscle Stimulation </h2><br>
-		<div class="text" data-reveal="left">
-		論文名稱:<br> Increasing Electrical Muscle Stimulation's Dexterity by means of <br>Back of the Hand Actuation.
-		</div>
-		<div class="text" data-reveal="left">
-		原始連結:<br><a href="https://dl.acm.org/doi/10.1145/3411764.3445761" target="_blank" >https://dl.acm.org/doi/10.1145/3411764.3445761</a>
-		</div>  
-	</div> 
-	</div> 
+		<div class="content-box" style="margin-top:1px;">
+			<h2 class="title" data-reveal="left">Improve</h2>
+			<h2 class="title" data-reveal="left">Electrical Muscle Stimulation </h2><br>
+			<div class="text" data-reveal="left">
+			論文名稱:<br> Increasing Electrical Muscle Stimulation's Dexterity by means of <br>Back of the Hand Actuation.
+			</div>
+			<div class="text" data-reveal="left">
+			原始連結:<br><a href="https://dl.acm.org/doi/10.1145/3411764.3445761" target="_blank" >https://dl.acm.org/doi/10.1145/3411764.3445761</a>
+			</div>  
+		</div> 
 	</div> 
 	
-  </div> 
 	
-<div class="section2">
-	<h1>Abstract</h1>
-	<p>Most web consumers don't read the text on a web page as they would in a book. They more likely will scan the text as they would a newspaper. Content developers and writers need to be cognizant of the short attention span of their audience, as they may be reading their content on any device.</p>
-	
-	<h2>Line Length</h2>
-	<p>When the web was in its infancy, screen resolutions were much smaller and text would run across the viewport from end to end without much regard for margins or padding. I've read varying rules for comfortable line lengths – line measure – which some say should be 45 - 70 characters. The line lenght of this paragraph is just over 60 characters. The width of the container is 480px or 30em.</p>
-	<p>Another factor that influences line length is leading or line height, in the case of the web. Too much space between lines and the text in a paragraph feels disjointed. The eye needs to find the beginning of the next line with a great distance between the previous line. Too little space and everything feels tight. A comfortable line height needs to be balanced. The line height value of this paragraph is 20px or 1.25em.</p>
-</div>
+	<div class="section2"> 
+	<span id="Intro"></span>
+	<div>
+		<h1 ># 前言</h1>
+		<p>
+		肌肉電刺激(EMS)是一種通過電脈衝誘導肌肉收縮的技術，通常是通過附著在皮膚上的電極。EMS起源於1960年代的醫療康復，作為恢復失去的運動功能的一種手段。EMS是一種力反饋和觸覺驅動技術，被用於實現廣泛的觸覺應用，例如：移動用戶的手腕以敲擊節拍，教用戶如何操作他們以前從未見過的物體，甚至可以控制用戶握筆的手，充當繪圖儀設備。
+		</p>
+	</div >
+	<span id="Abstract"></span>
+	<div>
+		<h1># 痛點</h1>
+		<p>然而，EMS系統都存在局限性，因為它們不是不驅動用戶的手指（主要是手腕），就是粗略地驅動用戶的手指，並且彼此之間不是獨立的，即，在大多數這些系統中，一個特定的目標手指通過EMS彎曲，其他手指也開始彎曲，導致不必要的動作和缺乏靈巧性。</p>
+		<br>
+		<p>
+		為此已經取得了一些進展，例如Watanabe等人通過刺激中指的屈肌和伸肌來控制MCP和PIP關節處的中指。雖然他們成功地控制了這根手指，但他們並沒有為所有手指在MCP關節周圍創建可靠的驅動。
+		</p> 
+	</div>
+	<span id="find"></span> 
+	<div>
+		<h1># 發現</h1>
+		<p>我們確定了EMS在誘導手指彎曲時缺乏靈巧性的原因，並將其歸結為幾乎都通過在前臂放置電極來實現這一事實。
+		</p>
+		<br>
+		<p>
+		原因有以下三個主要原因：
+		<br>
+		(1)前臂的屈肌密集排列，因為它們都在肘部作為共享錨；因此，試圖通過附著在皮膚上的電極來彎曲手指會導致電流也流過相鄰的肌肉，從而使其他肌肉不必要地移動；
+		<br>
+		(2)前臂的屈肌在一個深度與手指屈肌分層，在另一個深度與腕屈肌分層；因此，試圖通過附著在皮膚上的電極來彎曲手指通常會導致電流也流過其他層，從而導致其他肌肉（例如手腕）不必要地移動；
+		<br>
+		(3)當我們轉動手腕時，與前臂肌肉相比，前臂皮膚旋轉的量不同；因此，每當手腕移動時，電極最終都會刺激新的肌肉，從而導致不必要的彎曲。
+		</p> 
+		<br>
+		<p>
+		我們通過發現一種新的電極排列解決了EMS中缺乏靈巧性的問題。我們沒有將電極放置在手臂底部以瞄準該位置的手指屈肌，而是刺激手背，瞄準未探索的蚓狀肌/骨間肌。當使用EMS在MCP關節周圍彎曲手指時，這會提高靈活性。
+		</p>
+	</div>
 
-	<script>
+	<div ></div>
+</div>
+</div> 
+	
+</div> 
+	
+<script>
 	const revealElements = document.querySelectorAll("[data-reveal]");
 
 	const scrollReveal = function(){

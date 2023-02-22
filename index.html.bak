@@ -1,83 +1,99 @@
 <!DOCTYPE html>
 <html>
   <head> 
-    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=Big-5">
     <title></title>
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
   </head>
-  <body> 
+  <body>
+  
+<div>
   <div class="flex">
-        <div class="wrap-top"> 
-	  <div class="dropdown">
-        <ul>
-		<li><a href="hi.html" style="background:#dfdfdf;">Abstrac</a>
-			<div class="dropdown-content">
-				<ul> 
-					<li><a href="SMT/SMT.html">Intro</a></li>
-				</ul>
-			</div>
-		</li>
-		<li><a href="#">Intro</a></li>
-		<li><a href="knowledge.html">Abstract</a></li>
-		<li><a href="#">Abstract</a>
-			<div class="dropdown-content">
-				<ul>
-					<li><a href="#">Abstract</a></li>
-				</ul>
-			</div>
-		</li>
-		<li><a href="#">Abstract</a> 
-		</li>
-		<li><a href="#">Abstract</a> 
-		</li>
-		<li><a href="#">Abstract</a></li> 
-	</ul>
-      </div>
-    </div> 
+      <div class="wrap-top"> 
+		  <div class="dropdown">
+			<ul>
+			<li><a href="#Intro">«e¨¥</a></li>
+			<li><a href="#Abstract">µhÂI</a></li>
+			<li><a href="#find">µo²{</a></li>
+			<li><a href="#">Abstract</a>
+				<div class="dropdown-content">
+					<ul>
+						<li><a href="#">Abstract</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="#">Abstract</a> 
+			</li>
+			<li><a href="#">Abstract</a> 
+			</li>
+			<li><a href="#">Abstract</a></li> 
+			</ul>
+		  </div>
+		</div> 
 	
 	
 	<div class="section">
 		<div class="image-box" data-reveal="left">
 		<img src="img/g2.jpg" alt="" class="img">
 		</div>
-	<div class="content-box" style="margin-top:1px;">
-		<h2 class="title" data-reveal="left">Improve</h2>
-		<h2 class="title" data-reveal="left">Electrical Muscle Stimulation </h2><br>
-<<<<<<< HEAD
-		<div class="text" data-reveal="left">
-		½×¤å¦WºÙ:<br> Increasing Electrical Muscle Stimulation's Dexterity by means of <br>Back of the Hand Actuation.
-		</div>
-		<div class="text" data-reveal="left">
-		­ì©l³sµ²:<br><a href="https://dl.acm.org/doi/10.1145/3411764.3445761" target="_blank" >https://dl.acm.org/doi/10.1145/3411764.3445761</a>
-		</div>  
+		<div class="content-box" style="margin-top:1px;">
+			<h2 class="title" data-reveal="left">Improve</h2>
+			<h2 class="title" data-reveal="left">Electrical Muscle Stimulation </h2><br>
+			<div class="text" data-reveal="left">
+			½×¤å¦WºÙ:<br> Increasing Electrical Muscle Stimulation's Dexterity by means of <br>Back of the Hand Actuation.
+			</div>
+			<div class="text" data-reveal="left">
+			­ì©l³sµ²:<br><a href="https://dl.acm.org/doi/10.1145/3411764.3445761" target="_blank" >https://dl.acm.org/doi/10.1145/3411764.3445761</a>
+			</div>  
+		</div> 
 	</div> 
-=======
-		<p class="text" data-reveal="left">
-		è«–æ–‡åç¨±:<br> Increasing Electrical Muscle Stimulation's Dexterity by means of <br>Back of the Hand Actuation.
+	
+	
+	<div class="section2"> 
+	<span id="Abstract"></span>
+	<div>
+		<h1 ># «e¨¥</h1>
+		<p>
+		¦Ù¦×¹q¨ë¿E(EMS)¬O¤@ºØ³q¹L¹q¯ß½Ä»¤¾É¦Ù¦×¦¬ÁYªº§Ş³N¡A³q±`¬O³q¹LªşµÛ¦b¥Ö½§¤Wªº¹q·¥¡CEMS°_·½©ó1960¦~¥NªºÂåÀø±d´_¡A§@¬°«ì´_¥¢¥hªº¹B°Ê¥\¯àªº¤@ºØ¤â¬q¡CEMS¬O¤@ºØ¤O¤ÏõX©MÄ²Ä±ÅX°Ê§Ş³N¡A³Q¥Î©ó¹ê²{¼sªxªºÄ²Ä±À³¥Î¡A¨Ò¦p¡G²¾°Ê¥Î¤áªº¤âµÃ¥HºVÀ»¸`©ç¡A±Ğ¥Î¤á¦p¦ó¾Ş§@¥L­Ì¥H«e±q¥¼¨£¹Lªºª«Åé¡A¬Æ¦Ü¥i¥H±±¨î¥Î¤á´¤µ§ªº¤â¡A¥R·íÃ¸¹Ï»ö³]³Æ¡C
 		</p>
-		<p class="text" data-reveal="left">
-		åŸå§‹é€£çµ:<br><a href="https://dl.acm.org/doi/10.1145/3411764.3445761" target="_blank" >https://dl.acm.org/doi/10.1145/3411764.3445761</a>
-		</p>  
->>>>>>> 2063a7027facb2433528dd15183083781f7d70b2
-	</div> 
-	</div> 
-	
-  </div> 
-	
-<<<<<<< HEAD
-<div class="section2">
-	<h1>Abstract</h1>
-	<p>Most web consumers don't read the text on a web page as they would in a book. They more likely will scan the text as they would a newspaper. Content developers and writers need to be cognizant of the short attention span of their audience, as they may be reading their content on any device.</p>
-	
-	<h2>Line Length</h2>
-	<p>When the web was in its infancy, screen resolutions were much smaller and text would run across the viewport from end to end without much regard for margins or padding. I've read varying rules for comfortable line lengths ¡V line measure ¡V which some say should be 45 - 70 characters. The line lenght of this paragraph is just over 60 characters. The width of the container is 480px or 30em.</p>
-	<p>Another factor that influences line length is leading or line height, in the case of the web. Too much space between lines and the text in a paragraph feels disjointed. The eye needs to find the beginning of the next line with a great distance between the previous line. Too little space and everything feels tight. A comfortable line height needs to be balanced. The line height value of this paragraph is 20px or 1.25em.</p>
-</div>
+	</div >
+	<span id="Intro"></span>
+	<div>
+		<h1># µhÂI</h1>
+		<p>µM¦Ó¡AEMS¨t²Î³£¦s¦b§½­­©Ê¡A¦]¬°¥¦­Ì¤£¬O¤£ÅX°Ê¥Î¤áªº¤â«ü¡]¥D­n¬O¤âµÃ¡^¡A´N¬O²Ê²¤¦aÅX°Ê¥Î¤áªº¤â«ü¡A¨Ã¥B©¼¦¹¤§¶¡¤£¬O¿W¥ßªº¡A§Y¡A¦b¤j¦h¼Æ³o¨Ç¨t²Î¤¤¡A¤@­Ó¯S©wªº¥Ø¼Ğ¤â«ü³q¹LEMSÅs¦±¡A¨ä¥L¤â«ü¤]¶}©lÅs¦±¡A¾É­P¤£¥²­nªº°Ê§@©M¯Ê¥FÆF¥©©Ê¡C</p>
+		<br>
+		<p>
+		¬°¦¹¤w¸g¨ú±o¤F¤@¨Ç¶i®i¡A¨Ò¦pWatanabeµ¥¤H³q¹L¨ë¿E¤¤«üªº©}¦Ù©M¦ù¦Ù¨Ó±±¨îMCP©MPIPÃö¸`³Bªº¤¤«ü¡CÁöµM¥L­Ì¦¨¥\¦a±±¨î¤F³o®Ú¤â«ü¡A¦ı¥L­Ì¨Ã¨S¦³¬°©Ò¦³¤â«ü¦bMCPÃö¸`©P³ò³Ğ«Ø¥i¾aªºÅX°Ê¡C
+		</p> 
+	</div>
+	<span id="find"></span> 
+	<div>
+		<h1># µo²{</h1>
+		<p>§Ú­Ì½T©w¤FEMS¦b»¤¾É¤â«üÅs¦±®É¯Ê¥FÆF¥©©Êªº­ì¦]¡A¨Ã±N¨äÂkµ²¬°´X¥G³£³q¹L¦b«eÁu©ñ¸m¹q·¥¨Ó¹ê²{³o¤@¨Æ¹ê¡C
+		</p>
+		<br>
+		<p>
+		­ì¦]¦³¥H¤U¤T­Ó¥D­n­ì¦]¡G
+		<br>
+		(1)«eÁuªº©}¦Ù±K¶°±Æ¦C¡A¦]¬°¥¦­Ì³£¦b¨y³¡§@¬°¦@¨ÉÁã¡F¦]¦¹¡A¸Õ¹Ï³q¹LªşµÛ¦b¥Ö½§¤Wªº¹q·¥¨ÓÅs¦±¤â«ü·|¾É­P¹q¬y¤]¬y¹L¬Û¾Fªº¦Ù¦×¡A±q¦Ó¨Ï¨ä¥L¦Ù¦×¤£¥²­n¦a²¾°Ê¡F
+		<br>
+		(2)«eÁuªº©}¦Ù¦b¤@­Ó²`«×»P¤â«ü©}¦Ù¤À¼h¡A¦b¥t¤@­Ó²`«×»PµÃ©}¦Ù¤À¼h¡F¦]¦¹¡A¸Õ¹Ï³q¹LªşµÛ¦b¥Ö½§¤Wªº¹q·¥¨ÓÅs¦±¤â«ü³q±`·|¾É­P¹q¬y¤]¬y¹L¨ä¥L¼h¡A±q¦Ó¾É­P¨ä¥L¦Ù¦×¡]¨Ò¦p¤âµÃ¡^¤£¥²­n¦a²¾°Ê¡F
+		<br>
+		(3)·í§Ú­ÌÂà°Ê¤âµÃ®É¡A»P«eÁu¦Ù¦×¬Û¤ñ¡A«eÁu¥Ö½§±ÛÂàªº¶q¤£¦P¡F¦]¦¹¡A¨C·í¤âµÃ²¾°Ê®É¡A¹q·¥³Ì²×³£·|¨ë¿E·sªº¦Ù¦×¡A±q¦Ó¾É­P¤£¥²­nªºÅs¦±¡C
+		</p> 
+		<br>
+		<p>
+		§Ú­Ì³q¹Lµo²{¤@ºØ·sªº¹q·¥±Æ¦C¸Ñ¨M¤FEMS¤¤¯Ê¥FÆF¥©©Êªº°İÃD¡C§Ú­Ì¨S¦³±N¹q·¥©ñ¸m¦b¤âÁu©³³¡¥HºË·Ç¸Ó¦ì¸mªº¤â«ü©}¦Ù¡A¦Ó¬O¨ë¿E¤â­I¡AºË·Ç¥¼±´¯Áªº°Cª¬¦Ù/°©¶¡¦Ù¡C·í¨Ï¥ÎEMS¦bMCPÃö¸`©P³òÅs¦±¤â«ü®É¡A³o·|´£°ªÆF¬¡©Ê¡C
+		</p>
+	</div>
 
-=======
-	<span>123</span> 
->>>>>>> 2063a7027facb2433528dd15183083781f7d70b2
-	<script>
+	<div ></div>
+</div>
+</div> 
+	
+</div> 
+	
+<script>
 	const revealElements = document.querySelectorAll("[data-reveal]");
 
 	const scrollReveal = function(){
